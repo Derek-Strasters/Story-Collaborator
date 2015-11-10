@@ -119,3 +119,59 @@ comments.
 A list of threads
 
 A place to login or sign up
+
+### Modules
+
+As this is yet-to-be-determined, I will present two paths (Flask and
+Node.js) with the understanding that other options are available. I 
+will also list some alternative solutions in-line. 
+
+#### Flask (Python) Path
+
+Flask is a light-weight web application framework written in Python. It is 
+100% WSGI 1.0 compliant, modular in design, provides RESTful request
+dispatching, and is extensively documented.
+
+In this configuration, the server will run Ubuntu **<15.10 || version 
+to be determined>**. The web-server will be NGINX, and the database server
+will be SqlAlchemy. Front-end to database requests will be handled within Flask
+via pluggable modules. Front-end technologies will include the standards
+of HTML, CSS, JavaScript (including jQuery) and AngularJS for dynamic content.
+
+Alternative Web Servers: Apache
+Alternative Database Servers: MySQL, SQLite, MongoDB
+
+Pros:
+Lightweight and modular (only use what we need)
+Utilizes Python
+Can make DB CRUD natively
+Make powerful apps with less code
+
+Cons:
+Learning curve
+Fragments language requirements
+
+#### Node.JS Path
+Node.JS is a runtime environment for server-side web applications. It utlizes
+JavaScript, and can act as its own web server.
+
+In this configuration, the server will run Ubuntu **<15.10 || version 
+to be determined>**. The web-server will be Node.JS, and the database server
+will be MongoDB. The true back-end work will be performed by Express.JS as
+facilitated by Node.JS. Front-end to database requests will be handled in
+PHP via the GroceryCrud and the Codeigniter framework. Front-end technologies 
+will include the standards of HTML, CSS, JavaScript (including jQuery) and
+PHP for dynamic content.
+
+Alternative Web Servers: Apache, NGINX
+Alternative Database Servers: MySQL, SqlAlchemy, SQLite
+
+Pros:
+Currenlty very popular (easy to find support and answers to questions)
+Utilizes javascript, narrowing the language requirements
+Has a history of quick prototyping
+Works extremely well with "real-time applications"
+
+Cons:
+Managing callbacks is difficult
+Debugging can be difficult

@@ -1,0 +1,29 @@
+Key:
+----
+* 	Indicates a concrete choice
+[x] Indicates a selection has been made
+[ ] Indicates that the choice is still in deliberation
+
+Technologies:
+-------------
+Server OS: 				*Ubuntu* | CentOS
+
+Web Server: 			Apache | Nginx | Node.js | Tomcat | ??
+
+Database: 				MySql | SqlAlchemy | SQLite | MongoDB | ??
+
+Back-end Framework: 	Flask (Python) | Node.js w/ Express.js | ??
+
+						NOTE: Node.js might be better than flask for this quick-prototype/
+						"live" application. For comparison see http://goo.gl/J9qV79. Also see
+						http://goo.gl/Ha1veY					
+
+
+Front-end to DB:		PHP (maybe with GroceryCrud?) | 
+						Ruby on Rails (with ActiveScaffold) | 
+						Python (with Flask - see above)
+						Java (with SpringRoo) |
+						Grails (with Scaffolding) |
+						??
+						
+Front End Tech:			HTML&CSS&JS&jQuery && AngularJS? | Backbone.js | Vue.js | PHP | ??
