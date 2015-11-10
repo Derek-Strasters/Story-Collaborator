@@ -139,16 +139,24 @@ via pluggable modules. Front-end technologies will include the standards
 of HTML, CSS, JavaScript (including jQuery) and AngularJS for dynamic content.
 
 Alternative Web Servers: Apache
+
 Alternative Database Servers: MySQL, SQLite, MongoDB
 
 Pros:
+
 Lightweight and modular (only use what we need)
+
 Utilizes Python
+
 Can make DB CRUD natively
+
 Make powerful apps with less code
 
+
 Cons:
+
 Learning curve
+
 Fragments language requirements
 
 #### Node.JS Path
@@ -164,14 +172,24 @@ will include the standards of HTML, CSS, JavaScript (including jQuery) and
 PHP for dynamic content.
 
 Alternative Web Servers: Apache, NGINX
+
 Alternative Database Servers: MySQL, SqlAlchemy, SQLite
 
+
 Pros:
+
 Currenlty very popular (easy to find support and answers to questions)
+
 Utilizes javascript, narrowing the language requirements
+
 Has a history of quick prototyping
+
 Works extremely well with "real-time applications"
 
+
+
 Cons:
+
 Managing callbacks is difficult
+
 Debugging can be difficult
