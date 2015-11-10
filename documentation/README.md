@@ -2,10 +2,10 @@
 
 Project Codename Scuba-Noodle
 
-Concept {.western}
+Concept 
 =======
 
-Main Functions {.western}
+Main Functions 
 --------------
 
 Codename Scuba Noodle will be a web interface for users to collaborate
@@ -35,10 +35,10 @@ display in a separate pane for each blurb, limited in length by a small
 predetermined amount. Users can log in to preserve their blurb history,
 as well as comments, and their popularity rating.
 
-Features {.western}
+Features 
 ========
 
-Supported Devices {.western}
+Supported Devices 
 -----------------
 
 The project will contain an API such that access to content may be
@@ -46,16 +46,18 @@ extended by developers to any platform with Internet access.
 
 Browser support for the main web-page at paracite.org will include:
 
--   -   -   
+- Chrome
+- Firefox
+- Internet Explorer (latest version only)
 
-Minimum System Requirements {.western}
+Minimum System Requirements 
 ---------------------------
 
 Web-page must not exceed memory use above 350MB.
 
 Page must animate better than 20fps on hardware of \<to be determined\>.
 
-User Accounts {.western}
+User Accounts 
 -------------
 
 Accounts may be verified by Facebook API
@@ -67,7 +69,7 @@ Accounts must store post history, comment history, and score
 
 Accounts can be set as administrative
 
-Posting {.western}
+Posting 
 -------
 
 Users have the ability to create a new story thread
@@ -81,7 +83,7 @@ on comments (like Reddit.com).
 
 Users can vote a story as finished.
 
-Ordering and Sorting {.western}
+Ordering and Sorting 
 --------------------
 
 Blurbs are to be sorted based on a mathematical function of newness,
@@ -92,10 +94,10 @@ Actual scores are kept hidden, but a qualitative indicator (akin to
 color or a progress bar) is presented to the user to show how “good” a
 blurb is.
 
-GUI {.western}
+GUI 
 ---
 
-### View From a Thread {.western}
+### View From a Thread 
 
 From the thread interface, there is a list of blurbs stacked oldest on
 top newest on bottom within a scrolling box that takes up the largest
@@ -113,14 +115,14 @@ container: a rating indicator, the author.
 Each blurb will have the following displayed near the bottom of it's
 container: voting controls, a report button, and a comment button.
 
-### View From the Comments {.western}
+### View From the Comments 
 
 When the comment button is pressed a new floating window is created with
 the comments for that blurb, clicking a new blurb comment button while
 this window is still open will repopulate this window with the new
 comments.
 
-### Main view {.western}
+### Main view 
 
 A list of threads
 
