@@ -120,13 +120,13 @@ A list of threads
 
 A place to login or sign up
 
-### Modules
+## Modules
 
 As this is yet-to-be-determined, I will present two paths (Flask and
 Node.js) with the understanding that other options are available. I 
 will also list some alternative solutions in-line. 
 
-#### Flask (Python) Path
+### Flask (Python) Path
 
 Flask is a light-weight web application framework written in Python. It is 
 100% WSGI 1.0 compliant, modular in design, provides RESTful request
@@ -143,23 +143,17 @@ Alternative Web Servers: Apache
 Alternative Database Servers: MySQL, SQLite, MongoDB
 
 Pros:
-
-Lightweight and modular (only use what we need)
-
-Utilizes Python
-
-Can make DB CRUD natively
-
-Make powerful apps with less code
+- Lightweight and modular (only use what we need)
+- Utilizes Python
+- Can make DB CRUD natively
+- Make powerful apps with less code
 
 
 Cons:
+- Learning curve
+- Fragments language requirements
 
-Learning curve
-
-Fragments language requirements
-
-#### Node.JS Path
+### Node.JS Path
 Node.JS is a runtime environment for server-side web applications. It utlizes
 JavaScript, and can act as its own web server.
 
@@ -177,19 +171,33 @@ Alternative Database Servers: MySQL, SqlAlchemy, SQLite
 
 
 Pros:
-
-Currenlty very popular (easy to find support and answers to questions)
-
-Utilizes javascript, narrowing the language requirements
-
-Has a history of quick prototyping
-
-Works extremely well with "real-time applications"
-
+- Currenlty very popular (easy to find support and answers to questions)
+- Utilizes javascript, narrowing the language requirements
+- Has a history of quick prototyping
+- Works extremely well with "real-time applications"
 
 
 Cons:
+- Managing callbacks is difficult
+- Debugging can be difficult
 
-Managing callbacks is difficult
-
-Debugging can be difficult
+#### Module Proposal for Node.JS Path.
+*All user-facing pages can be implemented with Node.JS templates and then
+further customized with HTML, CSS, and Javascript as needed*
+- Main Page
+  - Basic framework and styling: Html/css
+  - Advanced styling: jQuery
+  - Dynamic / auto-update content: AngularJS
+- Registration Page, Log-in Page, Users' Account Management Page, Administrative Dashboard
+  - Basic framework and styling: Html/css
+  - View: AngularJS
+  - Authentication: NodeJS.Passport
+  - CRUD: NodeJS.Mongoose
+- Database and Database Schema
+  - MongoDB
+- Nodejs / Express server
+  - Web server: nodejs
+  - Url routing: express
+  - Templates: EJS
+- Other CRUD processing
+  - NodeJS.Mongoose

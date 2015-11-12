@@ -27,3 +27,31 @@ Front-end to DB:		PHP (maybe with GroceryCrud?) |
 						??
 						
 Front End Tech:			HTML&CSS&JS&jQuery && AngularJS? | Backbone.js | Vue.js | PHP | ??
+
+﻿modules:
+- front page
+    > basic framework and styling: Html/css
+    > Advanced styling: jQuery
+    > dynamic / auto-update content: AngularJS
+- register
+    > basic framework and styling: Html/css
+    > View: AngularJS
+- log in
+    > basic framework and styling: Html/css
+    > View: AngularJS
+    > Authentication: Passport module
+- account mgmt
+    > basic framework and styling: Html/css
+    > view: AngularJS
+- admin console
+    > basic framework and styling: Html/css
+    > view: AngularJS
+- database schema
+    > MongoDB
+- nodejs / express server
+    > web server: nodejs
+    > url routing: express
+- CRUD processing
+    > NodeJS via Mongoose
+- Security
+    > ??
