@@ -138,18 +138,18 @@ will be SqlAlchemy. Front-end to database requests will be handled within Flask
 via pluggable modules. Front-end technologies will include the standards
 of HTML, CSS, JavaScript (including jQuery) and AngularJS for dynamic content.
 
-Alternative Web Servers: Apache
+**Alternative Web Servers:** Apache
 
-Alternative Database Servers: MySQL, SQLite, MongoDB
+**Alternative Database Servers:** MySQL, SQLite, MongoDB
 
-Pros:
+**Pros:**
 - Lightweight and modular (only use what we need)
 - Utilizes Python
 - Can make DB CRUD natively
 - Make powerful apps with less code
 
 
-Cons:
+**Cons:**
 - Learning curve
 - Fragments language requirements
 
@@ -165,19 +165,19 @@ PHP via the GroceryCrud and the Codeigniter framework. Front-end technologies
 will include the standards of HTML, CSS, JavaScript (including jQuery) and
 PHP for dynamic content.
 
-Alternative Web Servers: Apache, NGINX
+**Alternative Web Servers:** Apache, NGINX
 
-Alternative Database Servers: MySQL, SqlAlchemy, SQLite
+**Alternative Database Servers:** MySQL, SqlAlchemy, SQLite
 
 
-Pros:
+**Pros:**
 - Currenlty very popular (easy to find support and answers to questions)
 - Utilizes javascript, narrowing the language requirements
 - Has a history of quick prototyping
 - Works extremely well with "real-time applications"
 
 
-Cons:
+**Cons:**
 - Managing callbacks is difficult
 - Debugging can be difficult
 
