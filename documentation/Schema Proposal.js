@@ -3,7 +3,9 @@
 
 // User Schema
 User {
-	"name": String,
+	"firstName": String,
+	"lastName": String,
+	"userId": String,
 	"avatar": Buffer, // i.e. binary (picture)
 	"email": Email,
 	"created": Date,
@@ -25,6 +27,7 @@ Blurb {
 	"author": String,
 	"submitted": Date,
 	"votes": Number,
-	"trunk": String 
+	"trunk": String,
+	"text": String,
 }
 
