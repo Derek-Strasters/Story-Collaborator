@@ -36,7 +36,7 @@ router.route('/:blurb_id')
   // GET by ID
   .get(function(req, res) {
     Blurb.findById(req.params.blurb_id, function(err, blurb) {
-      if (err) { res.send(err); }
+      if (err) { res.send("Get Error: " + err); }
       res.json(blurb);
     });
   })

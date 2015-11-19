@@ -1,7 +1,11 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-/* Creating the user schema
+// Connect to the database
+var dbURI = 'mongodb:/\/localhost/scuba-noodle';
+mongoose.connect(dbURI);
+
+// Creating the user schema
 var UserSchema = new Schema({
   "firstName": String,
   "lastName": String,
@@ -18,7 +22,7 @@ var UserSchema = new Schema({
 });
 
 // Exporting the user schema
-module.exports = mongoose.model('User', UserSchema);*/
+module.exports = mongoose.model('User', UserSchema);
 
 // Creating the blurb schema
 var BlurbSchema = new Schema ({
@@ -31,3 +35,11 @@ var BlurbSchema = new Schema ({
 
 // Exporting the blurb schema
 module.exports = mongoose.model('Blurb', BlurbSchema);
+
+// Disconnect from the DB on App termination
+process.on('SIGINT', function() {
+  mongoose.connection.close(function() {
+    console.log("Mongoose disconnected through app termination");
+    process.exit(0);  
+  });
+});
