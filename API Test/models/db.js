@@ -22,7 +22,7 @@ var UserSchema = new Schema({
 });
 
 // Exporting the user schema
-module.exports = mongoose.model('User', UserSchema);
+module.exports.User = mongoose.model('User', UserSchema);
 
 // Creating the blurb schema
 var BlurbSchema = new Schema ({
@@ -34,7 +34,7 @@ var BlurbSchema = new Schema ({
 });
 
 // Exporting the blurb schema
-module.exports = mongoose.model('Blurb', BlurbSchema);
+module.exports.Blurb = mongoose.model('Blurb', BlurbSchema);
 
 // Disconnect from the DB on App termination
 process.on('SIGINT', function() {

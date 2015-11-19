@@ -1,7 +1,7 @@
 var express = require('express'),
   mongoose = require('mongoose'),
   router = express.Router(),
-  User = require('../models/db');
+  User = require('../models/db').User;
 
 router.use(function(req, res, next) {
   console.log("Incoming request...");

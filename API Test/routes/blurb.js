@@ -2,7 +2,7 @@ var express = require('express');
 var mongoose = require('mongoose');
 
 var router = express.Router();
-var Blurb = require('../models/db');
+var Blurb = require('../models/db').Blurb;
 
 router.use(function(req, res, next) {
   console.log("Incoming request...");
