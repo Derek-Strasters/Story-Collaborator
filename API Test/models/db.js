@@ -9,7 +9,7 @@ mongoose.connect(dbURI);
 var UserSchema = new Schema({
   "firstName": String,
   "lastName": String,
-  "userId": String,
+  "userName": String,
   "avatar": Buffer,
   "email": { type: String, unique: true },
   "created": {type: Date, default: Date.now },
