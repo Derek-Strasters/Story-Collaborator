@@ -9,9 +9,9 @@ mongoose.connect(dbURI);
 var UserSchema = new Schema({
   "firstName": String,
   "lastName": String,
-  "userName": String,
+  "userName": { type: String, unique: true ),
   "avatar": Buffer,
-  "email": { type: String, unique: true },
+  "email": String,
   "created": {type: Date, default: Date.now },
   "loggedIn": Boolean,
   "lastLogin": Date,
