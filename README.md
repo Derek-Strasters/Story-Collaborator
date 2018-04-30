@@ -1,3 +1,3 @@
 # Project App Story-Collaborator
-## Introduction
-Story-Collaborator is the upcoming web project that presents an interface for random users to collaborate on a story that is written one paragraph at a time. Each paragraph is voted on by other users deciding the final outcome of the story
+## UPDATE
+This project has been moved to a django framework and can be found under the (paracite-django)[https://github.com/Derek-Strasters/paracite-django] project
